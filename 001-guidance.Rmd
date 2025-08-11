@@ -52,11 +52,11 @@ https://docs.google.com/presentation/d/18hGcIU0txsYTjcuTYbip8m8W9YWuOX07SDaZzBEK
 
 
 # Rとは
-![R logo](./001-guidance_files/R_logo.svg.png){height=20mm}　
+![R logo](./graph/R_logo.svg.png){height=20mm}　
 
 R とは、**統計やデータ解析**に特化したプログラミング言語であり、R 言語とも呼ばれている。しかし、R は「見たままが得られる(What You See Is What You Get)」型のソフトウェアではないため、プログラミングの基礎がない者にとっては困難がある。Excel のように容易にデータを確認できるわけではないからである。R の画面は簡素であり、DOS 環境に近いものである。
 
-![Rの起動画面](./001-guidance_files/R-first.png)  
+![Rの起動画面](./graph/R-first.png)  
 しかし、R には非常に多くの利点がある。第一に、R は**無料**であり、誰でも自由に使用できるのに対し、Stata や Matlab などは非常に高価である。第二に、R には多数の**パッケージ(package)**が存在し、一部は標準で内蔵されており、一部は統計コミュニティのメンバーによって作成されている。これらの既存packageを利用することで、プログラミングに要する時間と労力を削減し、データの可視化、回帰分析、さらには機械学習や深層学習のモデル推定をより迅速に行うことができるのである。
 
 この授業は統計分析の初心者向けであるので、Rの**統合開発環境**(Integrated Development Environment, IDE)である**R Studio**を使用する。R はマウスによる操作ができないのに対し、R Studio はマウスでクリックしたり、Excel のようにデータを表示して確認することができるのである。ただし、この授業ではマウスの使用を極力避け、プログラミング機能によって R を動かすのである。
@@ -67,15 +67,15 @@ R や RStudio を個人のパソコンにインストールするには時間が
 
 1. https://posit.cloud にアクセしし、**Gmailアカウント**でログインする。
 
-![Posit Cloud Login](./001-guidance_files/R-Posit1.png){width=50%}　
+![Posit Cloud Login](./graph/R-Posit1.png){width=50%}　
 
 2.New Project > New RStudio Project を選択
 
-![New RStudio Project](./001-guidance_files/R-Posit2.png)　
+![New RStudio Project](./graph/R-Posit2.png)　
 
 3.少し時間を置いてから、RStudio の画面を確認するのである。
 
-![RStudio画面](./001-guidance_files/R-Posit3.png)　
+![RStudio画面](./graph/R-Posit3.png)　
 (1)メニュー欄にはさまざまな機能が集約されており、たとえば File > Import Dataset を選択することで、マウス操作によってデータを導入することが可能である(ほぼ使わないが)。
 
 (2)Console はメイン画面であり、ここでコードを入力すると計算結果が返ってくるのである。
@@ -124,7 +124,7 @@ curve(dnorm(x), add = TRUE, lwd = 2)
 # RやR Studioのインストール
 Cloud 上の RStudio はあくまでも体験用であり、性能はかなり低いのである。基本的には、各自のパソコンに R や RStudio をインストールしなければならない。
 
-![](./001-guidance_files/RStudio_logo_flat.svg.png){height=20mm}
+![](./graph/RStudio_logo_flat.svg.png){height=20mm}
 
 R Studio を実行するには、R 環境が必要である。**必ず下記 1 > 2 > 3 > 4 > 5の順に従いなさい。**
 
@@ -148,7 +148,7 @@ R Studio を実行するには、R 環境が必要である。**必ず下記 1 >
     R Studioを起動、上方のメニュー  
     Tools > Global Options > Code > Saving > Default text encoding > **UTF-8**を選択
     
-![RやRStudioの関係](./001-guidance_files/R-RStudio.png)　　
+![RやRStudioの関係](./graph/R-RStudio.png)　　
 
     
 ## うまくいかない場合
@@ -172,7 +172,7 @@ Windows の場合、ユーザー名を日本語(e.g. **<span style="color:red">�
 プログラミングの上達には試行錯誤が必要である。これまで、採点やフィードバックには大きな限界があったため、できない者はできないまま、一生プログラミングが上達しないのである。本授業では **GitHub** を導入し、自動採点を行うことで、学生は課題を提出する前に何度も練習し、仮採点を繰り返すことができるのである。
 
 
-![](./001-guidance_files/github.png){height=30mm}
+![](./graph/github.png){height=30mm}
 
 GitHub とは、分散型バージョン管理システムである Git を基盤としたソースコード管理プラットフォームである。ソフトウェア開発においてコードの共有、変更履歴の管理、共同作業を容易にする機能を提供している。GitHub はプログラミング初心者にとって難易度が高いため、この授業では**必要な機能に限定**して使用するのである。
 
@@ -188,7 +188,7 @@ GitHub とは、分散型バージョン管理システムである Git を基�
   https://github.com/login  
  「Continue with Goggle」をクリックし、**<span style="color:red">大学のGmailアカウント</span>**でログインしなさい。成績評価の関係上、個人のGmailは使ってはいけない。
  
-    ![GitHubログイン](./001-guidance_files/github3.png){width=50%}　
+    ![GitHubログイン](./graph/github3.png){width=50%}　
 
 
 2. GitHub Desktopをダウンロードする  
@@ -200,7 +200,7 @@ https://desktop.github.com/download/
 「Use my GitHub account name and email address」のままで進む  
 （手動でnameを変更する場合、学籍番号が追跡できなくなる）
 
-    ![GitHubログイン](./001-guidance_files/github4.png)　
+    ![GitHubログイン](./graph/github4.png)　
 
 
 **GitHubを用いた課題提出の流れについては、後日チュートリアルを実施**する予定である。現時点では、インストールするだけで良い。すでにバージョン管理システムの使用経験があり（例：git clone、git add、git commit、git push を理解している場合）、自身の慣れた方法を使用してよい。必ずしも GitHub Desktop をインストールする必要はない。
