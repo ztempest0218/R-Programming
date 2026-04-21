@@ -1,7 +1,7 @@
 ---
 title: "Rプログラミング入門<br>ガンダンス"
 author: "Cho（ztempest0218@gmail.com）"
-date: 'Last Updated: `r Sys.Date()`'
+date: 'Last Updated: 2026-04-08'
 header-includes:
   - \usepackage{ctex}
 output:
@@ -65,7 +65,7 @@ R とは、**統計やデータ解析**に特化したプログラミング言�
 R や RStudio を個人のパソコンにインストールするには時間がかかるため、
 まずは、Posit Cloud 上に構築された RStudio サービスから R の利用を体験するのである。インストールや環境設定は不要であるが、機能はかなり制限されているのである。
 
-1. https://posit.cloud にアクセしし、**Gmailアカウント**でログインする。
+1. https://posit.cloud にアクセスし、**Gmailアカウント**でログインする。
 
 ![Posit Cloud Login](./001-guidance/R-Posit1.png){width=50%}　
 
@@ -102,6 +102,7 @@ print(x)
 
 ## 練習3
 次に、10の自然対数を計算し、変数yに代入し、プリントしよう。
+
 ```{r}
 y <- log(10)
 print(y)
@@ -204,4 +205,9 @@ https://desktop.github.com/download/
 
 
 **GitHubを用いた課題提出の流れについては、後日チュートリアルを実施**する予定である。現時点では、インストールするだけで良い。すでにバージョン管理システムの使用経験があり（例：git clone、git add、git commit、git push を理解している場合）、自身の慣れた方法を使用してよい。必ずしも GitHub Desktop をインストールする必要はない。
+
+# アンケート
+RやR Studio、Github Desktopのインストールについて確認します。大学のアカウントでログインする上で記入してください。
+
+https://docs.google.com/forms/d/e/1FAIpQLSfLFkqXiWBLKg22LbbEoqCh5YAx6r-5mC_MWgBhV3h8UVQUGw/viewform?usp=dialog
 
