@@ -239,7 +239,7 @@ head(panel_jp,20)
 | 時系列 Time series   | 時点 × 変数 | t | 日経平均（日次） |
 | パネル Panel         | 個体 × 時点 × 変数 | (i, t) | 都道府県別の年次推移 |
 
-横断面、時系列やパネルデータは統計学・計量経済学における基本的かつ重要なデータ構造である。この三つのデータ構造は、必ず覚えておきましょう。構造化されたデータのため、何もexcelのような行×列の形式である。一行は一観測、一列は一変数。
+横断面、時系列やパネルデータは統計学・計量経済学における基本的かつ重要なデータ構造である。この三つのデータ構造は、必ず覚えておきましょう。構造化されたデータのため、excelのような行×列の形式である。一行は一観測、一列は一変数。
 
 ## データサイエンスにおいて
   
@@ -259,7 +259,7 @@ head(panel_jp,20)
   - 非構造データ(Unstructured data)<br>
   テキスト、画像、音声、映像など表形式に収まらないデータ
 
-Rプログラミング入門を主に構造化データ用のdata.frameオブジェクトとその変形、および時系列データを扱うオブジェクトを説明する。
+Rプログラミング入門は主に構造化データ用のdata.frameオブジェクトとその変形、および時系列データを扱うオブジェクトを説明する。
 
 ### 構造化データ
 
@@ -439,7 +439,7 @@ df$passed <- NULL
 条件付きのデータ抽出(行データの操作)や、変数を用いた計算(列データの操作)、練習を通じて習得しておくことが望ましい。
 
 # 課題
-下記リンクをクリックする前に、Githubチュートリアルを視聴してください。Google classroomを確認してください。
+下記リンクをクリックする前に、Githubチュートリアルを視聴してください。Google classroomを確認してください。[Githubのイメージ](./004-data-structure/github.png)
 
 https://zoom.us/rec/share/H4OSwQ3ljjDx7fykOq8uTFP1AXH15ha28cURYwWhmFerk0R4gPOAoJ6aR5p0OULf.i9HYIOxd-lXNAbve
 
@@ -451,7 +451,7 @@ To-Doリスト
   
   2. 2段階認証を登録 https://drive.google.com/file/d/1l3gKPgRnLeF7Mp9-EoZ6ifHqczD7z6R3/view?usp=sharing
   
-  3. Githubから課題を受領する
+  3. Githubから課題を受領する [文字版](https://docs.google.com/document/d/1L528tvVoiTqf04mgQEPtexdsxHDYOEFy0XeHNPX8olw/edit?usp=sharing)
   
   4. パソコンLocal環境で課題を取り組む
   
