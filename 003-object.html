@@ -3238,7 +3238,7 @@ d は文字型（character）として扱われる。
 <div id="行列" class="section level3" number="2.2.2">
 <h3><span class="header-section-number">2.2.2</span> 行列</h3>
 <p>行列（線形代数）を扱うことができるソフトウェアでは、行列を用いた計算が可能である。これにより、ベクトルや行列を用いた一括計算（ベクトル化計算）が可能となり、繰り返し処理を減らすことができる。また、数式に近い形でプログラムを記述できるため、理解しやすいという利点がある。
-MATLABは典型的な行列言語であり、R、GAUSS、Juliaなども行列演算を用いたプログラミングを行うことができる。Python+Nunmpyを使うと、行列計算もできる。</p>
+MATLABは典型的な行列言語であり、R、GAUSS、Juliaなども行列演算を用いたプログラミングを行うことができる。Python+Numpyを使うと、行列計算もできる。</p>
 <div class="sourceCode" id="cb56"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb56-1"><a href="#cb56-1" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">6</span></span>
 <span id="cb56-2"><a href="#cb56-2" tabindex="-1"></a>A <span class="ot">&lt;-</span> <span class="fu">matrix</span>(x, <span class="at">nrow =</span> <span class="dv">2</span>)</span>
 <span id="cb56-3"><a href="#cb56-3" tabindex="-1"></a>A</span></code></pre></div>
@@ -3269,7 +3269,7 @@ MATLABは典型的な行列言語であり、R、GAUSS、Juliaなども行列演
 \sum_{i=1}^{n} (x_i - \bar{x})^2
 }
 \]</span></p>
-<p>これを線形単回帰の解析解であり、代数的方法使っている。</p>
+<p>これは通常の代数的方法を使っている。</p>
 <p>一方で、行列を使う計算方法がかなりわかりやすくて、直感的である。行列を使う計量経済学のテキストを調べると、最小二乗推定量は</p>
 <p><span class="math display">\[
 \hat{\beta} = (X^{\top}X)^{-1}X^{\top}y
@@ -3289,14 +3289,6 @@ MATLABは典型的な行列言語であり、R、GAUSS、Juliaなども行列演
 <pre><code>##       [,1]
 ##   1.142837
 ## x 1.994352</code></pre>
-<div class="sourceCode" id="cb69"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb69-1"><a href="#cb69-1" tabindex="-1"></a><span class="fu">lm</span>(y <span class="sc">~</span> x)</span></code></pre></div>
-<pre><code>## 
-## Call:
-## lm(formula = y ~ x)
-## 
-## Coefficients:
-## (Intercept)            x  
-##       1.143        1.994</code></pre>
 <p><span class="math display">\[
 \hat{\beta} =
 \begin{pmatrix}
@@ -3304,7 +3296,7 @@ MATLABは典型的な行列言語であり、R、GAUSS、Juliaなども行列演
 \hat{\beta}_1
 \end{pmatrix}
 \]</span></p>
-<p>かなりシンプルに、直感的に推定することができた。補足:*は通常の掛け算であり、行列積は<code>%*%</code>で表す。解析解と一致する。</p>
+<p>かなりシンプルに、直感的に推定することができた。補足:*は通常の掛け算であり、行列積は<code>%*%</code>で表す。</p>
 <p>不均一分散を考慮した一般化最小二乗(GLS)の場合、</p>
 <p><span class="math display">\[
 \hat{\beta}_{\mathrm{GLS}} = (X^{\top}\Omega^{-1}X)^{-1}
@@ -3315,23 +3307,23 @@ X^{\top}\Omega^{-1} y
 <div id="関数" class="section level3" number="2.2.3">
 <h3><span class="header-section-number">2.2.3</span> 関数</h3>
 <p>関数もRの中でオブジェクトとして扱われる。例えば、平均<code>mean()</code>、合計<code>sum()</code>などがある、自作の関数もできる。</p>
-<div class="sourceCode" id="cb71"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb71-1"><a href="#cb71-1" tabindex="-1"></a>e <span class="ot">&lt;-</span> <span class="fu">mean</span>(<span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>))</span>
-<span id="cb71-2"><a href="#cb71-2" tabindex="-1"></a>e</span></code></pre></div>
+<div class="sourceCode" id="cb69"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb69-1"><a href="#cb69-1" tabindex="-1"></a>e <span class="ot">&lt;-</span> <span class="fu">mean</span>(<span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>))</span>
+<span id="cb69-2"><a href="#cb69-2" tabindex="-1"></a>e</span></code></pre></div>
 <pre><code>## [1] 2.5</code></pre>
-<div class="sourceCode" id="cb73"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb73-1"><a href="#cb73-1" tabindex="-1"></a>f <span class="ot">&lt;-</span> <span class="fu">sum</span>(<span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>))</span>
-<span id="cb73-2"><a href="#cb73-2" tabindex="-1"></a>f</span></code></pre></div>
+<div class="sourceCode" id="cb71"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb71-1"><a href="#cb71-1" tabindex="-1"></a>f <span class="ot">&lt;-</span> <span class="fu">sum</span>(<span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>))</span>
+<span id="cb71-2"><a href="#cb71-2" tabindex="-1"></a>f</span></code></pre></div>
 <pre><code>## [1] 10</code></pre>
 <p>自作関数の場合</p>
-<div class="sourceCode" id="cb75"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb75-1"><a href="#cb75-1" tabindex="-1"></a>f <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
-<span id="cb75-2"><a href="#cb75-2" tabindex="-1"></a>  x<span class="sc">^</span><span class="dv">2</span></span>
-<span id="cb75-3"><a href="#cb75-3" tabindex="-1"></a>}</span>
-<span id="cb75-4"><a href="#cb75-4" tabindex="-1"></a></span>
-<span id="cb75-5"><a href="#cb75-5" tabindex="-1"></a><span class="fu">f</span>(<span class="dv">3</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb73"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb73-1"><a href="#cb73-1" tabindex="-1"></a>f <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
+<span id="cb73-2"><a href="#cb73-2" tabindex="-1"></a>  x<span class="sc">^</span><span class="dv">2</span></span>
+<span id="cb73-3"><a href="#cb73-3" tabindex="-1"></a>}</span>
+<span id="cb73-4"><a href="#cb73-4" tabindex="-1"></a></span>
+<span id="cb73-5"><a href="#cb73-5" tabindex="-1"></a><span class="fu">f</span>(<span class="dv">3</span>)</span></code></pre></div>
 <pre><code>## [1] 9</code></pre>
 <p><span class="math inline">\(f(x)=x^2\)</span>を作成できる。3をinputする場合、9が返してくれる。</p>
 <p>よく使われる<code>summary</code>も関数の一種であり。</p>
-<div class="sourceCode" id="cb77"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb77-1"><a href="#cb77-1" tabindex="-1"></a>g <span class="ot">&lt;-</span> <span class="fu">summary</span>(e)</span>
-<span id="cb77-2"><a href="#cb77-2" tabindex="-1"></a>g</span></code></pre></div>
+<div class="sourceCode" id="cb75"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb75-1"><a href="#cb75-1" tabindex="-1"></a>g <span class="ot">&lt;-</span> <span class="fu">summary</span>(e)</span>
+<span id="cb75-2"><a href="#cb75-2" tabindex="-1"></a>g</span></code></pre></div>
 <pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
 ##     2.5     2.5     2.5     2.5     2.5     2.5</code></pre>
 <p>ベクトルeの基本情報をまとめて、gに代入し、表示することができる。</p>
@@ -3363,6 +3355,26 @@ Model of Harold Zurcher. Econometrica, 55(5), 999–1033. <a href="https://doi.o
 </div>
 <div id="課題" class="section level2" number="2.3">
 <h2><span class="header-section-number">2.3</span> 課題</h2>
+<p>すべてをHW1.Rに記入すること。まずは、課題に取り組むこと。課題の提出に使うGithubは後日、チュートリアル動画を配信する。</p>
+<ol style="list-style-type: decimal">
+<li><p>Xに10の自然対数を代入し、プリントしよう。</p></li>
+<li><p>888の35乗にした結果をdouble精度の変数 cio に保存しよう。</p></li>
+<li><p>ベクトル x に 1, 2, 3, 4, 5 を代入し、構造を確認しよう。</p>
+<p>👉 ヒント：str()</p></li>
+<li><p>文字列ベクトル name に “A”, “B”, “C”
+を代入し、内容を表示しよう。</p></li>
+<li><p>異なるデータ型（1, “A”, TRUE）を含むベクトル d
+を作成し、その型を確認しよう。</p></li>
+<li><p>ベクトル x の第3要素を取り出し、プリントしよう。</p></li>
+<li><p>ベクトル x の各要素を2倍にした新しいベクトル y
+を作成しよう。</p></li>
+<li><p>x から 3 より大きい要素だけを抽出し、新しいオブジェクト z
+に保存しよう。</p></li>
+<li><p>ベクトル x から行列 A（2行）を作成し、表示しよう。</p>
+<p>👉 ヒント：matrix()</p></li>
+<li><p>関数 f を作成し、入力された値の2乗を返すようにしよう。また、f(5)
+を計算しよう。</p></li>
+</ol>
 </div>
 </div>
 
