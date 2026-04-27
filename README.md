@@ -2,8 +2,6 @@
 
 R-Programming course at Niigata University
 
-# R Programming Course
-
 ## 📘 講義一覧
 
 ### 001 Guidance
