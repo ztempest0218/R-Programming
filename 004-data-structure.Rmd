@@ -439,10 +439,9 @@ df$passed <- NULL
 条件付きのデータ抽出(行データの操作)や、変数を用いた計算(列データの操作)、練習を通じて習得しておくことが望ましい。
 
 # 課題
-下記リンクをクリックする前に、Githubチュートリアルを視聴してください。Google classroomを確認してください。[Githubのイメージ](./004-data-structure/github.png)
+課題リンクをクリックする前に、Githubチュートリアルを視聴してください。[Githubのイメージ](./004-data-structure/github.png)
 
 https://zoom.us/rec/share/H4OSwQ3ljjDx7fykOq8uTFP1AXH15ha28cURYwWhmFerk0R4gPOAoJ6aR5p0OULf.i9HYIOxd-lXNAbve
-
 Passcode: a%4H?7S@
 
 To-Doリスト
