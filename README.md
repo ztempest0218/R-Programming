@@ -16,6 +16,8 @@ R-Programming course at Niigata University
 ### 004 Data Structure
 - [HTML](./004-data-structure.html)
 
+- [Data ZIP](./data/data.zip)
+
 
 ## 📕 課題一覧
 
