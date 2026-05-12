@@ -24,7 +24,14 @@ R-Programming course at Niigata University
 
 ## 📕 課題一覧
 
+- [HW1](https://classroom.github.com/a/dQba4t97)
+
+- [HW2](https://classroom.github.com/a/Vt8PPngF)
+
+課題の提出方法
+
 [Githubチュートリアル](https://zoom.us/rec/share/H4OSwQ3ljjDx7fykOq8uTFP1AXH15ha28cURYwWhmFerk0R4gPOAoJ6aR5p0OULf.i9HYIOxd-lXNAbve)
+
 Passcode: `a%4H?7S@`
 
 To-Doリスト
@@ -38,10 +45,6 @@ To-Doリスト
 4. パソコンLocal環境で課題を取り組む
 
 5. 課題をGithubサーバーに提出(push)する
-
-- [HW1](https://classroom.github.com/a/dQba4t97)
-
-- [HW2](https://classroom.github.com/a/Vt8PPngF)
 
 ---
 
