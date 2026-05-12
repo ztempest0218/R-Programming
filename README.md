@@ -38,7 +38,7 @@ To-Doリスト
 
 1. Github Desktopをインストール(ガイダンスを参考)
 
-2. 2段階認証を登録 https://drive.google.com/file/d/1l3gKPgRnLeF7Mp9-EoZ6ifHqczD7z6R3/view?usp=sharing
+2. 2段階認証を登録 (https://drive.google.com/file/d/1l3gKPgRnLeF7Mp9-EoZ6ifHqczD7z6R3/view?usp=sharing)
 
 3. Githubから課題を受領する 文字版
 
