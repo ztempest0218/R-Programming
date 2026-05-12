@@ -28,17 +28,19 @@ R-Programming course at Niigata University
 
 - [HW2](https://classroom.github.com/a/Vt8PPngF)
 
-課題の提出方法
+### 課題の提出方法
 
 [Githubチュートリアル](https://zoom.us/rec/share/H4OSwQ3ljjDx7fykOq8uTFP1AXH15ha28cURYwWhmFerk0R4gPOAoJ6aR5p0OULf.i9HYIOxd-lXNAbve)
 
 Passcode: `a%4H?7S@`
 
+---
+
 To-Doリスト
 
 1. Github Desktopをインストール(ガイダンスを参考)
 
-2. 2段階認証を登録 (https://drive.google.com/file/d/1l3gKPgRnLeF7Mp9-EoZ6ifHqczD7z6R3/view?usp=sharing)
+2. 2段階認証を登録 <https://drive.google.com/file/d/1l3gKPgRnLeF7Mp9-EoZ6ifHqczD7z6R3/view?usp=sharing>
 
 3. Githubから課題を受領する 文字版
 
