@@ -137,7 +137,7 @@ R Studio を実行するには、R 環境が必要である。**必ず下記 1 >
 
     - Mac: https://cran.r-project.org/bin/macosx/
     
-    - Linus: あなたなら楽勝でしょ
+    - Linux: あなたなら楽勝でしょ
     
 2. Rをインストールする
 
