@@ -16,6 +16,11 @@ R-Programming course at Niigata University
 ### 004 Data Structure
 - [HTML](./004-data-structure.html)
 
+### 005 Data Import
+- [HTML](./005-import-data.html)
+
+- [Data ZIP](./data/data.zip)
+
 
 ## 📕 課題一覧
 
@@ -33,7 +38,7 @@ To-Doリスト
 
 2. 2段階認証を登録 <https://drive.google.com/file/d/1l3gKPgRnLeF7Mp9-EoZ6ifHqczD7z6R3/view?usp=sharing>
 
-3. Githubから課題を受領する 文字版
+3. Githubから課題を受領する [文字版](https://docs.google.com/document/d/1L528tvVoiTqf04mgQEPtexdsxHDYOEFy0XeHNPX8olw/edit?usp=sharing)
 
 4. パソコンLocal環境で課題を取り組む
 
