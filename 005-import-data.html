@@ -3380,12 +3380,13 @@ Taxiビッグデータでやってみる。NYC Taxi
 データは、都市経済学、交通経済学、GIS、機械学習、Big Data
 教育など幅広い分野で利用されている。特に、巨大かつリアルなデータセットであるため、Data
 Science 教育の代表的教材として有名である。</p>
-<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" tabindex="-1"></a><span class="co"># arrowパッケージを読み込む</span></span>
-<span id="cb21-2"><a href="#cb21-2" tabindex="-1"></a><span class="fu">library</span>(arrow)</span>
-<span id="cb21-3"><a href="#cb21-3" tabindex="-1"></a></span>
-<span id="cb21-4"><a href="#cb21-4" tabindex="-1"></a>taxi <span class="ot">&lt;-</span> <span class="fu">read_parquet</span>(<span class="st">&quot;./data/yellow_tripdata_2025-01.parquet&quot;</span>)</span>
-<span id="cb21-5"><a href="#cb21-5" tabindex="-1"></a></span>
-<span id="cb21-6"><a href="#cb21-6" tabindex="-1"></a><span class="fu">nrow</span>(taxi) <span class="co">#観測値(行数)を確認</span></span></code></pre></div>
+<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" tabindex="-1"></a><span class="co"># install.packages(&quot;arrow&quot;)</span></span>
+<span id="cb21-2"><a href="#cb21-2" tabindex="-1"></a><span class="co"># arrowパッケージを読み込む</span></span>
+<span id="cb21-3"><a href="#cb21-3" tabindex="-1"></a><span class="fu">library</span>(arrow)</span>
+<span id="cb21-4"><a href="#cb21-4" tabindex="-1"></a></span>
+<span id="cb21-5"><a href="#cb21-5" tabindex="-1"></a>taxi <span class="ot">&lt;-</span> <span class="fu">read_parquet</span>(<span class="st">&quot;./data/yellow_tripdata_2025-01.parquet&quot;</span>)</span>
+<span id="cb21-6"><a href="#cb21-6" tabindex="-1"></a></span>
+<span id="cb21-7"><a href="#cb21-7" tabindex="-1"></a><span class="fu">nrow</span>(taxi) <span class="co">#観測値(行数)を確認</span></span></code></pre></div>
 <pre><code>## [1] 3475226</code></pre>
 <p>2025年1月のタクシーデータは、一ヶ月分だけで 3,475,226
 行もある大規模データである。</p>
