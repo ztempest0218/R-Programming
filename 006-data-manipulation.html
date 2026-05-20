@@ -3029,7 +3029,7 @@ border-radius: 0px;
   mean_income = mean(income)
 )</code></pre>
 <p>おまけ:
-<code>stringr</code>は文字列処理パッケージであるが、文字列処理パッケージであるが、あいまい検索（fuzzy
+<code>stringr</code>は文字列処理パッケージであるが、あいまい検索（fuzzy
 matching）的な処理もある程度可能である。例えば、正規表現（regex）を用いることで、「特定の単語を含む」「似たパターンを持つ」文字列を検索できる。非構造化データであるTwitter/Xテキスト、スポーツイベント分析、医療テキスト（病名を抽出する）などを処理できる。この入門授業は構造化データを扱うため、省略する。興味あれば、<a href="https://github.com/ztempest0218/jpstock">SBI証券データを用いたプチプロジェクト</a>を参考してください。</p>
 </div>
 <div id="dplyrパッケージ" class="section level1" number="2">
@@ -3319,7 +3319,7 @@ log
 </tbody>
 </table>
 <p>* 日本語は正式な呼び方ではない。海外ではよくlevelとrateと呼ぶ。</p>
-<p>SSDSEに戻って、既存の人口に関する変数で新たに変数を作成してみよう。</p>
+<p>SSDSEに戻って、既存の人口に関する変数で新たに変数を作成してみよう。<code>mutate()</code>関数を使用する。</p>
 <div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a>df6 <span class="ot">&lt;-</span> <span class="fu">mutate</span>(</span>
 <span id="cb11-2"><a href="#cb11-2" tabindex="-1"></a>  new,</span>
 <span id="cb11-3"><a href="#cb11-3" tabindex="-1"></a>  </span>
