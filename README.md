@@ -21,12 +21,19 @@ R-Programming course at Niigata University
 
 - [Data ZIP](./data/data.zip)
 
+### 006 Data Manipulation
+- [HTML](./006-data-manipulation.html)
+
+- [SSDSE.rds](./data/SSDSE.rds)
+
 
 ## 📕 課題一覧
 
 - [HW1](https://classroom.github.com/a/dQba4t97) [解答](./scripts/HW1.R)
 
 - [HW2](https://classroom.github.com/a/Vt8PPngF) [解答](./scripts/HW2.R)
+
+- [HW3](https://classroom.github.com/a/Uzdwsc1s)
 
 ### 課題の提出方法
 
