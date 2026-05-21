@@ -33,7 +33,7 @@ R-Programming course at Niigata University
 
 - [HW2](https://classroom.github.com/a/Vt8PPngF) [解答](./scripts/HW2.R)
 
-- [HW3](https://classroom.github.com/a/Uzdwsc1s)
+- [HW3](https://classroom.github.com/a/iix6llbu)
 
 ### 課題の提出方法
 
