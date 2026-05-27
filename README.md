@@ -26,6 +26,11 @@ R-Programming course at Niigata University
 
 - [SSDSE.rds](./data/SSDSE.rds)
 
+### 007 Data Merge
+- [HTML](./007-data-merge.html)
+
+- [SSDSE.rds](./data/SSDSE.rds)（前回と同様）
+
 
 ## 📕 課題一覧
 
