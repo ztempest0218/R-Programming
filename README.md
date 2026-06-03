@@ -31,6 +31,13 @@ R-Programming course at Niigata University
 
 - [SSDSE.rds](./data/SSDSE.rds)（前回と同様）
 
+### 008 Data Merge 2
+- [HTML](./008-data-merge-2.html)
+
+- [サッカー選手給与データ](./data/capology_big5_latest.csv)
+
+- [FIFAゲームデータ](./data/players_20.csv)
+
 
 ## 📕 課題一覧
 
@@ -40,6 +47,7 @@ R-Programming course at Niigata University
 
 - [HW3](https://classroom.github.com/a/iix6llbu) [解答](./scripts/HW3.R)
 
+- [HW4](https://classroom.github.com/a/e1nR1ZoI)
 
 ### 課題の提出方法
 
