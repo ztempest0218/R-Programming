@@ -38,6 +38,11 @@ R-Programming course at Niigata University
 
 - [FIFAゲームデータ](./data/players_20.csv)
 
+### 009 Descriptive Statistics and Visualization
+- [HTML](./009-descriptive-statistics-visualization.html)
+
+- [SSDSE小サンプル](./data/ssdse_clean_sample_2018_2023.rds)
+
 
 ## 📕 課題一覧
 

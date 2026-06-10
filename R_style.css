@@ -146,3 +146,34 @@ div.section.level1 h2{
 .theorem p {
   display: inline;
 }
+
+/* modelsummary / tinytable */
+@font-face {
+  font-family: "LMRoman10";
+  src: url("file:///usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.tinytable {
+  font-family: "LMRoman10", "Latin Modern Roman", "Times New Roman",
+    "Yu Gothic UI", "Meiryo UI", sans-serif;
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+
+.tinytable caption {
+  text-align: center !important;
+  font-size: 1.1em !important;
+  font-weight: bold !important;
+}
+
+.tinytable td,
+.tinytable th {
+  font-variant-numeric: tabular-nums;
+}
+
+.tinytable td {
+  white-space: pre-line;
+}
