@@ -43,6 +43,15 @@ R-Programming course at Niigata University
 
 - [SSDSE小サンプル](./data/ssdse_clean_sample_2018_2023.rds)
 
+### 010 Visualization and GIS
+
+- [SSDSE出生率データ](./data/gis/ssdse_birth_rate_2012_2023.rds)
+
+- [raw行政区域データ（N03 ZIP）](https://www.dropbox.com/scl/fo/jr9dm984wjg3p4sobw0hr/ADRWucJzT0YFX_hK7Yq7_FM?rlkey=ea5qtcqu9lv95cd1jnyiojtge&st=ol4m7wn0&dl=0) [処理済み都道府県地図データ（RDS）](./data/gis/japan_prefecture_2026.rds)
+
+- [raw鉄道データ（N02 ZIP）](https://www.dropbox.com/scl/fo/jr9dm984wjg3p4sobw0hr/ADRWucJzT0YFX_hK7Yq7_FM?rlkey=ea5qtcqu9lv95cd1jnyiojtge&st=ol4m7wn0&dl=0) [処理済み鉄道路線データ（RDS）](./data/gis/japan_railway_2025.rds) [処理済み駅データ（RDS）](./data/gis/japan_station_2025.rds)
+
+
 
 ## 📕 課題一覧
 
