@@ -44,6 +44,7 @@ R-Programming course at Niigata University
 - [SSDSE小サンプル](./data/ssdse_clean_sample_2018_2023.rds)
 
 ### 010 Visualization and GIS
+- [HTML](./010-visualization-gis.html)
 
 - [SSDSE出生率データ](./data/gis/ssdse_birth_rate_2012_2023.rds)
 
@@ -61,7 +62,7 @@ R-Programming course at Niigata University
 
 - [HW3](https://classroom.github.com/a/iix6llbu) [解答](./scripts/HW3.R)
 
-- [HW4](https://classroom.github.com/a/e1nR1ZoI)
+- [HW4](https://classroom.github.com/a/e1nR1ZoI) [解答](./scripts/HW4.R)
 
 ### 課題の提出方法
 
