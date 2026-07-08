@@ -52,6 +52,10 @@ R-Programming course at Niigata University
 - [Yt.csv（練習データ）](./data/Yt.csv)
 - その他は内蔵データ（`nottem`、`AirPassengers`）と `quantmod` のオンライン取得（日経平均）を使用
 
+### 013 Loop
+- [HTML](./013-loop.html)
+- [pref_split.zip（都道府県別47個のCSVファイル）](./data/pref_split/pref_split.zip)（解凍して使用）
+
 ## 📕 課題一覧
 
 - [HW1](https://classroom.github.com/a/dQba4t97) [解答](./scripts/HW1.R)
@@ -63,6 +67,8 @@ R-Programming course at Niigata University
 - [HW4](https://classroom.github.com/a/e1nR1ZoI) [解答](./scripts/HW4.R)
 
 - [HW5](https://classroom.github.com/a/tUvsH3mx)（〆切 2026/7/8 16:30）
+
+- [HW6](https://classroom.github.com/a/XdQYV5kk)（〆切 2026/7/15 16:30）
 
 ### 課題の提出方法
 
