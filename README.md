@@ -56,9 +56,6 @@ R-Programming course at Niigata University
 - [HTML](./013-loop.html)
 - [pref_split.zip（都道府県別47個のCSVファイル）](./data/pref_split/pref_split.zip)（解凍して使用）
 
-### 014 R Markdown
-- [HTML](./014-rmarkdown.html)
-- [SSDSE小サンプル](./data/ssdse_clean_sample_2018_2023.rds)（第9回・第11回と同じ）
 
 ## 📕 課題一覧
 
