@@ -60,9 +60,6 @@ R-Programming course at Niigata University
 - [HTML](./014-rmarkdown.html)
 - [SSDSE小サンプル](./data/ssdse_clean_sample_2018_2023.rds)
 
-### 015 Summary
-- [HTML](./015-summary.html)
-- [SSDSE小サンプル](./data/ssdse_clean_sample_2018_2023.rds)
 
 
 ## 📕 課題一覧
