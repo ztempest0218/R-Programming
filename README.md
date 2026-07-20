@@ -60,7 +60,8 @@ R-Programming course at Niigata University
 - [HTML](./014-rmarkdown.html)
 - [SSDSE小サンプル](./data/ssdse_clean_sample_2018_2023.rds)
 
-
+### 015 Summary
+- [HTML](./015-summary.html)
 
 ## 📕 課題一覧
 
@@ -74,7 +75,7 @@ R-Programming course at Niigata University
 
 - [HW5](https://classroom.github.com/a/tUvsH3mx) [解答](./scripts/HW5.R)
 
-- [HW6](https://classroom.github.com/a/XdQYV5kk)（〆切 2026/7/15 16:30）
+- [HW6](https://classroom.github.com/a/XdQYV5kk) [解答](./scripts/HW6.R)
 
 - [HW7](https://classroom.github.com/a/fAV2BiqE)（データ可視化レポート、〆切 2026/7/25 23:59）
 

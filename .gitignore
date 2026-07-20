@@ -3,3 +3,4 @@
 .Rapp.history
 .gitattributes
 *.Rmd
+grade/
