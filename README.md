@@ -98,7 +98,7 @@ To-Doリスト
 ---
 
 ## 📄 その他
-- [シラバス](./R入門シラバス.pdf)
+- [シラバス](./R-syllabus.pdf)
 
 
 Author: 張　俊超（Zhang, Junchao）
